@@ -1,0 +1,53 @@
+h1{
+    color:red;
+padding-left: 100px;
+}
+.menu{
+    color:cyan ;
+    display:flex;
+    justify-content: flex-end ;
+    margin-right: 40px;
+}
+.grid{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+p,h2{
+    text-align: center;
+}
+.footer{
+    display:flex;
+    justify-content: flex-end;
+}
+*{
+    background-color:grey;
+}
+a:link{
+    color: peachpuff;
+    text-decoration: none;
+}
+a:visited{
+    color: rgb(238, 8, 150);
+    text-decoration: none;
+}
+a:active{
+    color: seashell;
+    text-decoration: none;
+}
+.items{
+    position: relative;
+}
+.items p{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+}
+.items:hover p{
+    opacity: 1;
+}
+.items:hover img{
+    opacity: 0.33;
+}
